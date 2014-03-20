@@ -21,3 +21,25 @@ l_manif = 0  #length of main part of the manifold
 l_split = 0  #length of one of the split pieces (5 of them per manifold)
 
 V_manif = pi*r_manif**2*(l_manif + 5*l_split)
+
+# dimensions for the outflow tubes (from bioreactor)
+r_outtube = 0
+l_outtube = 0
+
+V_outtube = pi*r_outtube**2*l_outtube
+
+# dimensions for the tube between manifold and bioreactor
+r_midtube = 0
+l_midtube = 0
+
+V_midtube = pi*r_midtube**2*l_midtube
+
+# dimensions of the tube from manifold to manifold (main to branch)
+r_intube = 0
+l_intube = 0
+
+V_intube = pi*r_intube**2*l_intube
+
+# dimensions of the main line in to the main manifold
+r_main = 0
+l_main = 0
