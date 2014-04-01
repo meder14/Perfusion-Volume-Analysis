@@ -43,3 +43,9 @@ V_intube = pi*r_intube**2*l_intube
 # dimensions of the main line in to the main manifold
 r_main = 0
 l_main = 0
+
+V_main = pi*r_main**2*l_main
+
+# combine volumes
+
+V_total = 20*V_bio + 5*V_manif + V_outtube*20 + V_midtube*5 + V_intube
